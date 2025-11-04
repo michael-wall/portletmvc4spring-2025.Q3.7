@@ -1,7 +1,7 @@
 ## Introduction ##
 - This repository contains the source code for a sample Jakarta enabled PortletMVC4Spring that can be run in **Liferay DXP 2025.Q3.7**
 - The **Steps Followed to Setup the Module** section contains the steps taken to generate and update the blade tool generated widget to work.
-- The previous issue with the functions tag lib is resolved (https://liferay.atlassian.net/browse/LPD-64760).
+- The previous issue with the functions tag lib is resolved (https://liferay.atlassian.net/browse/LPD-64760) but it is necessary to replace references to xmlns:fn="http://java.sun.com/jsp/jstl/functions" with xmlns:fn="jakarta.tags.functions".
 
 ## Prerequisites ##
 - JDK 21
